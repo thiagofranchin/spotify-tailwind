@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, Repeat, SkipForward, Volume, Laptop2, LayoutList, Mic2, Maximize2 } from 'lucide-react'
+import { Home as Play, Shuffle, SkipBack, Repeat, SkipForward, Volume, Laptop2, LayoutList, Mic2, Maximize2 } from 'lucide-react'
 
 export function Footer() {
   return (

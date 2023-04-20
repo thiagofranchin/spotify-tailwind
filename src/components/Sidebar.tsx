@@ -1,4 +1,4 @@
-import { Home as HomeIcon, Search, Library, ChevronLeft, ChevronRight, Play, Shuffle, SkipBack, Repeat, SkipForward, Volume, Laptop2, LayoutList, Mic2, Maximize2 } from 'lucide-react'
+import { Home as HomeIcon, Search, Library } from 'lucide-react'
 
 export function Sidebar() {
   return (
@@ -25,7 +25,7 @@ export function Sidebar() {
 
       <nav className='mt-10 pt-10 border-t border-zinc-800 flex flex-col gap-3'>
         <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Atmospheric</a>
-        <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>You'll Never Walk Alone</a>
+        <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Youll Never Walk Alone</a>
         <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Low Roar - Death stranding</a>
         <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Garrafa Vazia</a>
         <a href="" className='text-sm text-zinc-400 hover:text-zinc-100'>Punk 77</a>
